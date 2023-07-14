@@ -1,0 +1,5 @@
+pillow
+fastapi
+uvicorn
+onnxruntime-gpu
+pydantic

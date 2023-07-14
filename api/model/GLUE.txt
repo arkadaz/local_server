@@ -1,0 +1,7 @@
+256
+1 2 256 256
+0.0 0.0 0.0
+1.0 1.0 1.0
+segmentation
+0 background
+1 glue

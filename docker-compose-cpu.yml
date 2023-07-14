@@ -1,0 +1,12 @@
+version: '3.4'
+name: tia_ai
+services:
+  api:
+    image: tia_image
+    container_name: deploy_tia_predict
+    restart: always
+    build: ./api
+    ports:
+      - "5555:5555"
+    volumes:
+      - ./api:/app
